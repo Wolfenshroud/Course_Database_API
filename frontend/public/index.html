@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	<title>GPA Booster</title>
+	<link href="/style.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<h1>Find GPA Booster Courses</h1>
+
+<h2>Choose Department</h2>
+<form>
+	<select name="dept" id="dept">
+		<option value="CPSC">CPSC</option>
+		<option value="COMM">COMM</option>
+		<option value="ENGL">ENGL</option>
+		<option value="ATSC">ATSC</option>
+		<option value="BIOL">BIOL</option>
+		<option value="CHEM">CHEM</option>
+		<option value="PHYS">PHYS</option>
+		<option value="CAPS">CAPS</option>
+		<option value="PSYC">PSYC</option>
+		<option value="PHIL">PHIL</option>
+	</select>
+	<br><br>
+	<button id="department_button" class="button">Confirm Selection</button>
+
+</form>
+<br>
+
+<p id="us1" class="success"></p>
+<p id="us1.2" class="failure"></p>
+
+<br>
+
+<h2>Search For a GPA Booster</h2>
+<form>
+	Course Average Greater Than: <input type="text" name="avg" id="avg"> <br><br>
+	<button id="search_button" class="button">Search!</button>
+</form>
+<br>
+
+<p id="us2" class="success"></p>
+<p id="us2.2" class="failure"></p>
+
+<script type="text/javascript" src="/frontend.js"></script>
+</body>
+</html>
